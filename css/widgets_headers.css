@@ -1,0 +1,24 @@
+/*ORIGINAL ANALOG CLOCK start*/
+.clock { float:right; display:block; margin-top:10px; margin-right:10px; }
+/*END OF ORIGINAL ANALOG CLOCK */
+
+/*Digital clock section start*/
+.clock_wrap{ float:right; display:block; margin-top:0px;
+	color:#0A141A;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	width:125px;
+	text-align:left;
+	position:relative;
+}
+#clock {
+	font:bold 30px "Poiret One";
+	text-shadow: 1px 1px 1px #aaa, -1px -1px 1px #ccc; /* FF3.5+, Opera 9+, Saf1+, Chrome */
+	text-transform:uppercase;
+	-moz-opacity:.80;
+	filter:alpha(opacity=80); 
+	opacity:.80;
+	text-shadow: 0 15px 29px rgba(0,0,0,0.0980392) , 10px 20px 5px rgba(0,0,0,0.0470588) , -10px 20px 5px rgba(0,0,0,0.0470588) ;
+	text-shadow: 4px 0 6px rgba(255,255,255,0.84) ;
+}
+/*Digital clock section end*/
